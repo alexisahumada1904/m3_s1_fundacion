@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+ <!-- Bootstrap Icons -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+<main>
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col-5">
+      <div class="card mt-5">
+        <div class="card-body text-center">
+          <h3 class="card-title fw-bold">!Apresúrese!</h3>
+          <h4 class="card-text">El plazo máximo para inscribirse es solo hasta el</h4> 
+            <h4 class="card-text text-danger fw-bold" id="fecha_random" >dd / mm / yyyy<h4>
+              <h4 class="card-text">y solo faltan <br><span id="dias_faltantes" class="text-warning"> x dias!</span></h4>           
+            <h4 class="card-text" > después de la siguiente fecha:</h4>
+          <h2 class="card-text fw-bolder fecha_principal pt-3" id="fecha_actual">dd / mm / yyyy</h2>
+        </div>
+        <div class="card-body shadow">
+          <div class="mb-3">
+            <input type="text"
+              class="form-control bg-light" name="" id="" aria-describedby="helpId" placeholder="Usuario">
+          </div>
+          <div class="mb-3">
+            <input type="text"
+              class="form-control bg-light" name="" id="" aria-describedby="helpId" placeholder="Correo">
+          </div>
+          <div class="mb-3">
+            <input type="text"
+              class="form-control bg-light" name="" id="" aria-describedby="helpId" placeholder="Contraseña">
+          </div>
+          <div><button type="button" class="btn btn_ins col-12">Inscribirse</button>
+            <div class="text-center pt-1"><small id="emailHelpId" class="form-text text-muted">¿Tiene una cuenta? <span class="text-info">Inicie sesión aquí</span></small></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+
+
+
+
+
+
+<!-- Option 1: Moment.js 2.29.4  -->
+  <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+<!-- Option 2: JQuery 3.6.4 min  -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<!-- Option 3: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <!-- Option 4: Main Js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
